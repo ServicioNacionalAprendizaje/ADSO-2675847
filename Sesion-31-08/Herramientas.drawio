@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T01:17:01.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="AiYzHMpsqt7HTaLbcJ80" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T02:07:57.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="omBq0sLIf_K03uLOaAoz" version="21.6.6" type="github">
   <diagram name="Página-1" id="_dcGo-oxmr1GpF_SujIY">
-    <mxGraphModel>
+    <mxGraphModel dx="988" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-1" value="IDE&lt;br&gt;(Entorno integrado de de desarrollo)&lt;br&gt;&lt;br&gt;Facilita la vida del desarrollador" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-2" value="Lenguajes de programación&lt;br&gt;(Pueden realziar opéraciones aritmética, lógicas y relacionales)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="70" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-3" value="Editores de texto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-4" value="Se puede conbstruir código con:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="10" as="sourcePoint" />
+            <mxPoint x="150" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="10" as="sourcePoint" />
+            <mxPoint x="320" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-7" value="&lt;div&gt;Tipos&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Compilados&lt;/li&gt;&lt;li&gt;Intepretados&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="90" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-8" value="PHP&lt;br&gt;&lt;font color=&quot;#ff7936&quot;&gt;Java Script&lt;/font&gt;&lt;br&gt;Java&lt;br&gt;Python&lt;br&gt;C#" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="220" width="131" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iyWqXV0QQV_2VLTZt8Ab-2" target="iyWqXV0QQV_2VLTZt8Ab-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="260" as="sourcePoint" />
+            <mxPoint x="330" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-10" value="notepad ++&lt;br&gt;notepad&lt;br&gt;sublimetext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-11" value="Android Studio&lt;br&gt;Visual Studio&lt;br&gt;&lt;font color=&quot;#ff6421&quot;&gt;Visual Studio Code&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff5a30&quot;&gt;(https://code.visualstudio.com/download)&lt;/font&gt;&lt;br&gt;NetBeans&lt;br&gt;Ecipse" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.337;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.634;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyWqXV0QQV_2VLTZt8Ab-1" target="iyWqXV0QQV_2VLTZt8Ab-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="260" as="sourcePoint" />
+            <mxPoint x="330" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.477;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyWqXV0QQV_2VLTZt8Ab-2" target="iyWqXV0QQV_2VLTZt8Ab-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="170" as="sourcePoint" />
+            <mxPoint x="493" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iyWqXV0QQV_2VLTZt8Ab-3" target="iyWqXV0QQV_2VLTZt8Ab-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299.5" y="140" as="sourcePoint" />
+            <mxPoint x="300.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-15" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="40" y="390" as="sourcePoint" />
+            <mxPoint x="690" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-16" value="Código java script" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-17" value="Documento que permite la visualización" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="445" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWqXV0QQV_2VLTZt8Ab-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.965;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iyWqXV0QQV_2VLTZt8Ab-16" target="iyWqXV0QQV_2VLTZt8Ab-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
