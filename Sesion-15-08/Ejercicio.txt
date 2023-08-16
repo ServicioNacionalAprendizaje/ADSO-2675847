@@ -1,1 +1,10 @@
 UML
+
+Realizar las operaciones aritméticas entre dos números.
+
+numero1, numero2 y resultado
+
+Suma
+Resta 
+Mmultiplicación
+División
