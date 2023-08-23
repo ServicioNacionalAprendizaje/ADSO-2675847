@@ -1,0 +1,80 @@
+Evidencia: GA4-220501095-AA2-EV03
+UML: Lenguaje Unificado de Modelado.
+
+
+Obtener el área de las fíguras geométricas: cuadrado, rectángulo, Triángulo y Circunferencia. 
+
+cuadrado, rectángulo, Triángulo y Circunferencia. 
+
+Atributos posibles: 
+*area
+
+============================================================
+Diagramas estáticos 
+Diagramas dinámicos
+
+
+=======================================
+Profundizar con material de apoyo sobre UML - Con sus propias palabras elabore un resumen sobre UML
+*Lectura y resumen del material de apoyo
+*Lectura y resumen del libro "UML en 24 horas.pdf"
+*Lectura y resumen pág 1-33 "design-patterns-es.pdf"
+
+Elaborar un glosario de terminología UML.
+Hablar sobre:
+	*¿Qué son los diagramas estáticos y diagramas dinámicos?
+	Diagrama de clases y ejemplo ***************importante
+	Diagrama de casos de usu y ejemplo ***************importante
+	Diagrama de secuencia y ejemplo
+	Diagrama de paquetes y ejemplo
+	Diagrama de estados y ejemplo
+	Diagrama de secuencia y ejemplo
+	
+Importante revisar: 
+*Conceptos generales de Bases de Datoscheck
+*Conceptos básicos programación orientada a objetoscheck
+*Diseño del modelo conceptual bajo el paradigma orientado a objetoscheck
+*Diseño de patrones de softwarecheck
+*Conceptos, tecnologías y arquitectura para el desarrollo web
+
+
+
+=======================
+diagrama de clases
+
+{nombre de la clase}=> Título
+{atributos}=> Características de la clase
+{métodos}=> comportamiento
+{visibilidad} => protected[#], private[-], public[+] 
+
+Un objeto es la realizaciòn de una clase. Si la clase es Persona, su objeto serà la realizaciòn de la informaciòn de una persona
+
+Persona jesus = new Persona();
+jesus.tipoDocumento("CC");
+jesus.documento("375824543");
+jesus.nombreCompleto("Jesùs Ariel Gonzàlez Bonilla");
+jesus.edad(31);
+
+Persona persona = new Persona();
+persona.tipoDocumento("CC");
+persona.documento("4324324");
+persona.nombreCompleto("Ana Marìa");
+persona.edad(21);
+
+
+Revisar: https://www.manualweb.net/java/tipos-datos-primitivos-java/
+
+Nùmeros [short, Short, int, Integer, double, Double, long, Long]
+Cadena [String, char ]
+Boolean [boolean, Boolean]
+Fecha [LocalDateTime, Date, Time, LocalDate, LocalTime]
+
+=================================
+POO=> Paradígma de programación orientada a objetos
+Polimorfismo 
+Encapsulamiento 
+Obstracción
+Herencia
+
+
+Descargar NetBeans: https://www.apache.org/dyn/closer.cgi/netbeans/netbeans-installers/18/Apache-NetBeans-18-bin-windows-x64.exe
