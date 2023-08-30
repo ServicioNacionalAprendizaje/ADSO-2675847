@@ -1,0 +1,40 @@
+******************************
+Se requiere realizar el seguimiento de la venta de los productos en la tienda de Pepito Peréz.
+******************************
+1.Definir los requerimientos
+2.Establecer modelado {clases y casos de uso}
+3.Modelo lógico del sistema
+
+******************************
+1. Definir los requerimientos
+
+RF1: Registrar clientes
+	Para registrar cliente se requiere gestionar los datos de: 
+	*Tipo ducumentos
+	*Documento
+	*Nombre
+	*Correo
+RF2: Registrar productos
+	Para registrar productos se requiere gestionar los datos de: 
+	*Codigo
+	*Nombre
+	*Categoria
+RF3: Realizar inventario
+	Para registrar el inventario se requiere gestionar los datos de: 
+	*Codigo
+	*Fecha inventario
+	*Producto
+	*Stock
+	*Valor unitario
+RF4: Registrar facturas
+	Para registrar la factura se requiere gestionar los datos de:
+	*Numero de factura
+	*Fecha
+	*Cliente
+	*Valor de la factura
+RF5: Registrar el detalle de las facturas
+	Para registrar el detalle de la factura se requiere gestionar los datos de:
+	*Factura
+	*Producto
+	*Cantidad
+	*Valor a Pagar por producto
