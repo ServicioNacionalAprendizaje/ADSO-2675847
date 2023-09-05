@@ -1,0 +1,5 @@
+1. Lenguajes de programación 
+	JavaScript
+2. UML 
+3. Diseñar el modelo conceptual  (Base de datos)
+4. Arquitectura
