@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T23:51:38.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.2" etag="LE_aXmhOdA7pkIIWfw7q" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T00:04:49.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KLsneogjpwTjMH9YkT-c" version="21.7.2" type="github">
   <diagram name="Página-1" id="I7OYAvTD2GQr2_H5n1Hm">
-    <mxGraphModel>
+    <mxGraphModel dx="704" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="760" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-1" value="&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Arquitectura&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Conjunto de herramientas, técnicas, metodologías y estructuras que permitan soportar el futuro proyecto.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="20" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-2" value="Requerimientos&lt;br&gt;IEE 830" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-3" value="Modelado&lt;br&gt;UML" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-4" value="Desarrollo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-5" value="Lenguajes de progaramación&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;tipados&lt;/li&gt;&lt;li&gt;no tipados&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.482;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nuXOW2MLWDCQzq31RKOd-4" target="nuXOW2MLWDCQzq31RKOd-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="170" as="sourcePoint" />
+            <mxPoint x="280" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-9" value="Datos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="91" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-10" value="Motores de base de datos&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;SQL&lt;/li&gt;&lt;li&gt;NOSQL&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="201" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.482;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nuXOW2MLWDCQzq31RKOd-9" target="nuXOW2MLWDCQzq31RKOd-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384" y="171" as="sourcePoint" />
+            <mxPoint x="434" y="121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-12" value="Infraestructura" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="91" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-13" value="Servidores&lt;br&gt;&lt;ul&gt;&lt;li&gt;InHouse&lt;/li&gt;&lt;li&gt;Cloud&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="496" y="201" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nuXOW2MLWDCQzq31RKOd-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.482;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nuXOW2MLWDCQzq31RKOd-12" target="nuXOW2MLWDCQzq31RKOd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="536" y="171" as="sourcePoint" />
+            <mxPoint x="586" y="121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
