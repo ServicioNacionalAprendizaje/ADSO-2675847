@@ -1,0 +1,6 @@
+Definición de requerimientos
+Modelado{
+	* Diagrama de clases
+	* Diagrama de casos de uso
+	* Base de datos
+}
