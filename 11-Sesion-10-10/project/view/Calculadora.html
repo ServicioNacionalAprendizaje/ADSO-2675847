@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Librería de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</html>
+
+<body>
+    <div class="contenidoGeneral">
+        <div class="claculadora">
+            <h2>Calculadora: El usario digita un número y de manera automática genera la tabla de multiplicar.</h2>
+            <table id="table" border="1">
+                <tr>
+                    <td>Númeno</td>
+                    <td><input type="number" name="numero" id="numero"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Calculadora de tabla de multiplicar" onclick="Calculadora();"></td>
+                </tr>
+    
+            </table>
+        </div>
+        <br>
+        <div id="">
+            <table class="claseTabla" border="1">
+                <thead>
+                    <td>Multiplicador</td>
+                    <td>Multiplicando</td>
+                </thead>
+                <tbody id="dataResul"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="../js/Calculadora.js"></script>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CLiente</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href=''>
+    <script src=''></script>
+
+    <!-- Librería de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="divHead">
+            <br>
+            <h5 class="card-title">Registro de Clientes</h5>   
+            <br>         
+        </div>
+        <div class="divForm">
+            <table class="table">
+                <tr class="table-secondary">
+                    <td>
+                        <label>Tipo Documento</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="">CC</option>
+                            <option value="">TI</option>
+                            <option value="">CE</option>
+                            <option value="">DNI</option>
+                            <option value="">PA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>
+                        <label>Documento</label>
+                    </td>
+                    <td>
+                        <input type="number" name="documeto" id="documeto" value="">
+                    </td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>
+                        <label>Nombre</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nnombre" id="nombre" value="">
+                    </td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>
+                        <label>Correo</label>
+                    </td>
+                    <td>
+                        <input type="email" name="correo" id="correo">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="divButton">
+            <br>
+            <input type="button" class="btn btn-success" value="Guardar">
+            <br>
+        </div>
+        <div class="divData">
+            <br>
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <td>Tipo Documento</td>
+                        <td>Documento</td>
+                        <td>Nombre</td>
+                        <td>Correo</td>
+                        <td>Editar</td>
+                        <td>Elimianr</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CC</td>
+                        <td>356874523</td>
+                        <td>Pepito Peréz</td>
+                        <td>pepito@gmail.com</td>
+                        <td>
+                            <h2>+</h2>
+                        </td>
+                        <td>
+                            <h2>-</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CC</td>
+                        <td>123456789</td>
+                        <td>Juan López</td>
+                        <td>juan@gmail.com</td>
+                        <td>
+                            <h2>+</h2>
+                        </td>
+                        <td>
+                            <h2>-</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CC</td>
+                        <td>987654321</td>
+                        <td>María Rodríguez</td>
+                        <td>maria@gmail.com</td>
+                        <td>
+                            <h2>+</h2>
+                        </td>
+                        <td>
+                            <h2>-</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CC</td>
+                        <td>555555555</td>
+                        <td>Carlos Sánchez</td>
+                        <td>carlos@gmail.com</td>
+                        <td>
+                            <h2>+</h2>
+                        </td>
+                        <td>
+                            <h2>-</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CC</td>
+                        <td>111111111</td>
+                        <td>Laura Martínez</td>
+                        <td>laura@gmail.com</td>
+                        <td>
+                            <h2>+</h2>
+                        </td>
+                        <td>
+                            <h2>-</h2>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

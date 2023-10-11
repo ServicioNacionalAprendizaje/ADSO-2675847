@@ -1,0 +1,15 @@
+.claseTabla{
+    width: 20%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    background-color: cadetblue;
+    border-color: black;
+}
+
+.contenidoGeneral{
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: cadetblue;
+}
