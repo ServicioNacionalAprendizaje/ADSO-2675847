@@ -16,3 +16,37 @@ Inglés
 Adicionales => Java(spring boot), Mysql, JavaScrip(angular), CSS(bootstrap), html
 
 https://github.com/ariel5253
+
+======================================
+GUTHUB
+
+1. Crear la cuenta: https://github.com/
+2. Crear repositorio: https://github.com/new
+
+Instalar git
+1. https://git-scm.com/downloads
+
+
+
+Primera vez: 
+1. Configurar datos de acceso:
+	git config --global user.name "John Doe"
+	git config --global user.email johndoe@example.com 
+2. Clonar repositorio: https://github.com/ServicioNacionalAprendizaje/ADSO-2675847.git
+
+
+Siempre: 
+1. git pull: Obtener cambios del servidor (repositorio) 
+2. git add -A: Listar cambios
+3. git commit -m "Socializar nueva actividad de proyecto formativo" : Para agragar cambios locales
+4. git push: publicar los cambios
+5. git pull: Obtener cambios del servidor (repositorio)
+
+
+
+
+
+
+
+
+
