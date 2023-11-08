@@ -1,0 +1,18 @@
+Desarrollo / programación
+Inglés
+==========================
+1. https://www.youtube.com/
+2. https://www.udemy.com/
+3. https://www.coursera.org/
+4. https://platzi.com/
+
+==========================
+1. Ingeniería de requerimientos (Requerimientos funcionales y no funcionales)
+2. UML (Diagrama casos de uso y diagrama de clases) 
+3. POO (Herencia, Polimorfismo, Encapsulamiento y Abstracción) => java
+4. BD (Normalización, SQL[DDL y DML]) =>mysql
+5. Versionamiento => git [guthub, gitlab, bitbukect]
+
+Adicionales => Java(spring boot), Mysql, JavaScrip(angular), CSS(bootstrap), html
+
+https://github.com/ariel5253
