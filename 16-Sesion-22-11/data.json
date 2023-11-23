@@ -1,0 +1,197 @@
+[
+  {
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "edad": 30,
+    "genero": "Masculino",
+    "correo": "juan.perez@email.com",
+    "telefono": "123-456-789",
+    "direccion": "Calle A, 123",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Pasaporte",
+    "documento": "AB123456",
+    "nombre": "María",
+    "apellido": "Rodríguez",
+    "edad": 25,
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Carnet de conducir",
+    "documento": "78901234B",
+    "nombre": "Pedro",
+    "apellido": "Gómez",
+    "edad": 35,
+    "genero": "Masculino",
+    "correo": "pedro.gomez@email.com",
+    "telefono": "987-654-321",
+    "direccion": "Avenida B, 456",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "NIE",
+    "documento": "X5678901C",
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "edad": 28,
+    "genero": "Femenino",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "DNI",
+    "documento": "98765432D",
+    "nombre": "Carlos",
+    "correo": "carlos.lopez@email.com",
+    "telefono": "555-123-456",
+    "direccion": "Calle D, 1011",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Pasaporte",
+    "documento": "CD987654",
+    "nombre": "Laura",
+    "apellido": "Sánchez",
+    "edad": 22,
+    "genero": "Femenino",
+    "correo": "laura.sanchez@email.com",
+    "telefono": "",
+    "direccion": "",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Carnet de conducir",
+    "documento": "54321098E",
+    "nombre": "Roberto",
+    "apellido": "Torres",
+    "edad": 33,
+    "genero": "Masculino",
+    "correo": "roberto.torres@email.com",
+    "telefono": "777-999-888",
+    "direccion": "Calle E, 1213",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "NIE",
+    "documento": "Y1234567F",
+    "nombre": "Isabel",
+    "apellido": "García",
+    "edad": 29,
+    "genero": "Femenino",
+    "correo": "isabel.garcia@email.com",
+    "telefono": "",
+    "direccion": "",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "DNI",
+    "documento": "87654321G",
+    "nombre": "David",
+    "apellido": "Fernández",
+    "edad": 32,
+    "genero": "Masculino",
+    "correo": "david.fernandez@email.com",
+    "telefono": "111-222-333",
+    "direccion": "",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Pasaporte",
+    "documento": "EF123456",
+    "nombre": "Sandra",
+    "apellido": "Ramírez",
+    "edad": 27,
+    "genero": "Femenino",
+    "correo": "sandra.ramirez@email.com",
+    "telefono": "444-555-666",
+    "direccion": "Avenida F, 1415",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "NIE",
+    "documento": "Z7654321H",
+    "nombre": "Elena",
+    "genero": "Femenino",
+    "correo": "elena.lopez@email.com",
+    "telefono": "999-888-777",
+    "direccion": "Calle G, 1617",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Pasaporte",
+    "documento": "GH987654",
+    "nombre": "Miguel",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Carnet de conducir",
+    "documento": "01234567I",
+    "nombre": "Lucía",
+    "apellido": "García",
+    "edad": 38,
+    "genero": "Femenino",
+    "correo": "lucia.garcia@email.com",
+    "telefono": "",
+    "direccion": "Calle I, 2021",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "DNI",
+    "documento": "76543210J",
+    "nombre": "Francisco",
+    "apellido": "Martínez",
+    "estado": "failed"
+  },
+  {
+    "tipoDocumento": "NIE",
+    "apellido": "Rodríguez",
+    "edad": 31,
+    "genero": "Femenino",
+    "correo": "carmen.rodriguez@email.com",
+    "telefono": "888-999-000",
+    "direccion": "Calle J, 2223",
+    "estado": "failed"
+  },
+  {
+    "tipoDocumento": "DNI",
+    "documento": "23456789L",
+    "nombre": "Javier",
+    "correo": "javier.fernandez@email.com",
+    "telefono": "555-666-777",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "Pasaporte",
+    "documento": "MN876543",
+    "nombre": "Beatriz",
+    "apellido": "Gómez",
+    "edad": 24,
+    "genero": "Femenino",
+    "correo": "beatriz.gomez@email.com",
+    "telefono": "111-222-333",
+    "direccion": "Calle K, 2425",
+    "estado": "failed"
+  },
+  {
+    "tipoDocumento": "Carnet de conducir",
+    "documento": "34567890M",
+    "nombre": "Rafael",
+    "apellido": "Hernández",
+    "edad": 39,
+    "genero": "Masculino",
+    "correo": "rafael.hernandez@email.com",
+    "telefono": "777-888-999",
+    "direccion": "Avenida L, 2627",
+    "estado": 1
+  },
+  {
+    "tipoDocumento": "NIE",
+    "documento": "OP123456",
+    "nombre": "Silvia",
+    "apellido": "Jiménez",
+    "edad": 28,
+    "genero": "Femenino",
+    "correo": "silvia.jimenez@email.com",
+    "estado": 1
+  }
+]
