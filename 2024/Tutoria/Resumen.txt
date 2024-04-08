@@ -1,0 +1,27 @@
+Construir => Escritorio, WEB o Móvil
+
+Artefactos de código WEB y adicional (app móvil)=> 
+	(
+		Documentación: 
+		
+		FrontEnd:  (Angualar)	
+			* html - css - js - ajax [NO]
+			* Angualar [html - css - js - axios]  **** [SI]
+			* React [html - css - js - axios] **** [SI]
+			* Vue [html - css - js - axios] **** [SI]
+			
+		BackEnd: (Spring Boot)
+			* programación nativa (c, java script, php, python, java, u otros) [NO]
+			* Construir servicios Api Rest (Spring Boot [java], Django [python])
+		
+	)
+
+Documentación de pruebas
+	Prueba unitarias.  Ideal*********
+
+Procedimiento de implementación del software
+	Despliegue
+
+Documentación de acciones correctivas, preventivas y de mejoramiento del software
+	
+	
