@@ -1,0 +1,61 @@
+@startuml
+class Persona{
+    - id : int
+    - nombre: String
+    - edad: int
+    - sexo: boolean
+}
+
+class Usuario{
+    - id : int
+    - usario: String
+    - password: String
+    - personaId: Persona
+}
+
+class Rol{
+    - id : int
+    - nombre: String
+    - description: String
+}
+
+class UsuarioRol{
+    - id : int
+    - usuarioId: Usuario
+    - rolId: Rol
+}
+
+class Modulo{
+    - id : int
+    - nombre: String
+    - descripcion: String
+}
+
+class RolModulo{
+    - id : int
+    - rolId: Rol
+    - moduloId: Modulo
+}
+
+class Vista{
+    - id : int
+    - nombre: String
+    - descripcion: String
+    - ruta : String
+}
+
+class ModuloVista{
+    - id : int
+    - moduloId: Modulo
+    - vistaId: Vista
+}
+
+Persona "1" -- "1" Usuario
+Usuario "1" -- "*" UsuarioRol
+Rol "1" -- "*" UsuarioRol
+Rol "1" -- "*" RolModulo
+Modulo "1" -- "*" RolModulo
+Modulo "1" -- "*" ModuloVista
+Vista "1" -- "*" ModuloVista
+
+@endstartuml

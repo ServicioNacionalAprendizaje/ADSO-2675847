@@ -1,0 +1,3 @@
+<?php
+    // hire code index
+?>
