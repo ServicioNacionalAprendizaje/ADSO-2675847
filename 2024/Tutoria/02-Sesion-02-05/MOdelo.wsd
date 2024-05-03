@@ -1,0 +1,102 @@
+@startuml
+
+    ' Autenticación y acceso al sistema
+    class Persona{
+        -nombre: String
+        -apellido: String
+    }
+
+    class Usuario{
+        -email: String
+        -password: String
+        -Persona: Persona
+        -Empresa: Empresa
+    }
+
+    class Rol{
+        -nombre: String
+        -description: String
+    }
+
+    class UsuarioRol{
+        -Usuario: Usuario
+        -Rol: Rol
+    }
+
+    class Vista{
+        -nombre: String
+        -url: String
+    }
+
+    class RolVista{
+        -Rol: Rol
+        -Vista: Vista
+    }
+
+
+    ' Core Bussinness
+    ' Pendiente controlar los permisos de empresa por usuario y rol
+    class Empresa{
+        -nombre: String
+        -direccion: String
+        -telefono: String
+        -email: String
+    }
+
+    class Empleado{
+        -codigo: String
+        -Persona: Persona
+    }
+
+    class Cliente{
+        -codigo: String
+        -Persona: Persona
+    }
+
+    'enum(Pendiente, Pagada, Anulada, Enviada, Entregada, Rechazada)
+    class Factura{
+        -codigo: String
+        -fecha: Date
+        -total: Double
+        -Cliente: Cliente
+        -Empresa: Empresa
+        -Estado: enum()
+    }
+
+    class Categoria{
+        -nombre: String
+        -descripcion: String
+    }
+
+    class Producto{
+        -codigo: String
+        -nombre: String
+        -descripcion: String
+        -precio: Double
+        -Categoria: Categoria
+    }
+
+    class DetalleFactura{
+        -cantidad: Integer
+        -precio: Double
+        -Producto: Producto
+        -Factura: Factura
+    }
+
+    ' Relaciones
+    Persona "1" -- "1" Usuario
+    Usuario "1" -- "*" UsuarioRol
+    Rol "1" -- "*" UsuarioRol
+    Rol "1" -- "*" RolVista
+    Vista "1" -- "*" RolVista
+
+    Empresa "1" -- "*" Empleado
+    Empleado "1" -- "1" Persona
+    Cliente "1" -- "1" Persona
+    Cliente "1" -- "*" Factura
+
+    Categoria "1" -- "*" Producto
+    Factura "1" -- "*" DetalleFactura
+    Producto "1" -- "*" DetalleFactura 
+
+@endtuml
