@@ -114,7 +114,9 @@ INSERT INTO persona (nombre, apellido) VALUES
 ('Jane', 'Smith'),
 ('Michael', 'Johnson'),
 ('Emily', 'Williams'),
-('Daniel', 'Brown');
+('Daniel', 'Brown'),
+('Sebastian', 'Naranjo'),
+('Carlos', 'Villamil');
 
 -- Insert sample data for empresa
 INSERT INTO empresa (nombre, direccion, telefono, email) VALUES
@@ -122,7 +124,8 @@ INSERT INTO empresa (nombre, direccion, telefono, email) VALUES
 ('XYZ Corp.', '456 Oak St', '555-5678', 'info@xyz.com'),
 ('123 Enterprises', '789 Elm St', '555-9012', 'info@123.com'),
 ('Smith & Co.', '321 Pine St', '555-3456', 'info@smith.com'),
-('Johnson Group', '654 Maple St', '555-7890', 'info@johnson.com');
+('Johnson Group', '654 Maple St', '555-7890', 'info@johnson.com'),
+('TDP', 'abcd', '34343', 'tdp@johnson.com');
 
 -- Insert sample data for usuario
 INSERT INTO usuario (email, password, persona_id, empresa_id) VALUES
@@ -130,12 +133,16 @@ INSERT INTO usuario (email, password, persona_id, empresa_id) VALUES
 ('jane@xyz.com', 'pass456', 2, 2),
 ('michael@123.com', 'abc123', 3, 3),
 ('emily@smith.com', 'smithpass', 4, 4),
-('daniel@johnson.com', 'daniel123', 5, 5);
+('daniel@johnson.com', 'daniel123', 5, 5),
+('naranjo@johnson.com', 'naranjo123', 6, 6),
+('villamil@tdp.com', 'abcd1234', 7, 6);
+
 
 -- Insert sample data for rol
 INSERT INTO rol (nombre, descripcion) VALUES
 ('Admin', 'Administrator'),
-('User', 'Vendedor');
+('User', 'Vendedor'),
+('Cliente', 'Acceso Cliente');
 
 -- Insert sample data for usuario_rol
 INSERT INTO usuario_rol (usuario_id, rol_id) VALUES
@@ -143,7 +150,10 @@ INSERT INTO usuario_rol (usuario_id, rol_id) VALUES
 (2, 2),
 (3, 1),
 (4, 2),
-(5, 2);
+(5, 2),
+(6,3),
+(7,3);
+
 
 -- Insert sample data for vista
 INSERT INTO vista (nombre, url) VALUES
@@ -174,7 +184,11 @@ INSERT INTO rol_vista (rol_id, vista_id) VALUES
 (2, 2),
 (2, 3),
 (2, 4),
-(2, 10);
+(2, 10),
+(3, 1),
+(3, 3),
+(3, 6),
+(3, 9);
 
 -- Insert sample data for empleado
 INSERT INTO empleado (codigo, persona_id) VALUES

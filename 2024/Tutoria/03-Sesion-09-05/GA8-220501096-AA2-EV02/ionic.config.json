@@ -1,0 +1,7 @@
+{
+  "name": "GA8-220501096-AA2-EV02",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
