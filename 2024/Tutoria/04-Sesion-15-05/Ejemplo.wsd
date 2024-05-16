@@ -1,0 +1,19 @@
+@startuml
+    class Categoria{
+        -id: Int
+        -nombre: String
+        -descripcion: String
+    }
+
+    class Producto{
+        -id: Int
+        -nombre: String
+        -descripcion: String
+        -precio: Double
+        -stock: Int
+        -categoria: Categoria
+    }
+    
+    Categoria -->   Producto    
+
+@endum
