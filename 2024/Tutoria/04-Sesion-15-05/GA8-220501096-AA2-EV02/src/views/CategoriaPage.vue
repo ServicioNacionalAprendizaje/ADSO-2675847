@@ -11,7 +11,7 @@
                 <ion-toolbar>
                     <ion-title size="large">Categoria</ion-title>
                 </ion-toolbar>
-            </ion-header>
+            </ion-header>F
             <div id="container">
                 <!-- div para boton de busqueda  -->
                 <div>
