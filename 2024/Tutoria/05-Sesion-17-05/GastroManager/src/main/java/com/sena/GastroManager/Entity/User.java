@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "user")
 public class User extends ABaseEntity{
+
     @Column(name = "email", nullable = false, unique = true)
     private String email;
 

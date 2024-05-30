@@ -4,7 +4,7 @@ public interface IPersonDto {
 
     String gettypeDocument();
     String getDocument();
-    String getFisrtName();
+    String getFirstName();
     String getLastName();
     String getPhone();
     String getAddress();
