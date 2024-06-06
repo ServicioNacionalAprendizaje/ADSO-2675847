@@ -1,5 +1,5 @@
 <?php
-public class Persona{
+class Persona{
     private $id;
     private $firstName;
     private $lastName;
