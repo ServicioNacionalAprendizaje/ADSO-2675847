@@ -1,0 +1,47 @@
+Guía - 10
+
+Backend: Servicios => web, móvil, escritorio? => P.O.O[Abstración, Herencia, Polimorfimos y Encapsulamiento]
+
+Monolítica 
+	project
+		asset
+		js
+		model
+		controller
+		view
+		index.html
+		
+Distribuida
+	project-web
+		asset
+		js
+		view
+		index.html
+	
+	project-back => API
+		entity
+		irepository
+		service
+		controller
+		[entity, dto, dao, irepository, iservice, service, controller, security, utils]
+		
+		
+		
+========================
+Guía 10
+
+3.1.5 Actividad de aprendizaje GA10-220501097-AA5. Configurar el software en el servidor y la base de datos.
+	C:\Users\ariel\VirtualBox VMs
+	Virtualización: Usar herramientas que permitan correr un S.O sobre la infraestructura de otro. Es decir, puede ser sobre windows montar un ubuntu. (a nivel local del equipo de la persona, es la opción menos práctica)
+	
+	Lo ideal o lo necesario: Windows o Ubuntu en servidor AWS, Azure, Google Clod Planfor u otros proveedores
+	
+	
+	Lo recomendado: Ubuntu => AWS
+	
+	Contenedores:
+		Windows o Ubuntu en servidor  o computador (local, AWS, Azure o  Google Clod Planfo)
+		
+		Docker: 
+	
+		
