@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  web:
+    container_name: web-native 
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    networks:
+      - network_local_server
+
+networks:
+  network_local_server:
