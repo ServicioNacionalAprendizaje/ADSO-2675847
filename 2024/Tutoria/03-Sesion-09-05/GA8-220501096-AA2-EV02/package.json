@@ -20,6 +20,7 @@
     "@capacitor/status-bar": "6.0.0",
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
+    "GA8-220501096-AA2-EV02": "file:",
     "ionicons": "^7.0.0",
     "vue": "^3.3.0",
     "vue-router": "^4.2.0"
